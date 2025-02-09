@@ -1,0 +1,11 @@
+--Bring in wait-for-it.sh locally in scripts/wait-for-it.sh--
+1.curl https://raw.githubusercontent.com/vishnubob/wait-for-it/master/wait-for-it.sh -o scripts/wait-for-it.sh
+
+--for the insecure one--
+1.curl --insecure https://raw.githubusercontent.com/vishnubob/wait-for-it/master/wait-for-it.sh -o scripts/wait-for-it.sh
+
+--make all shell file executable--
+1.chmod +x scripts/*
+
+--To run the integration file--
+1)./scripts/run-integration.sh
