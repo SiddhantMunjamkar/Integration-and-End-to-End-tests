@@ -33,7 +33,7 @@ jobs:
         run: npm install
 
       - name: Grant execution permission to script
-        run: chmod +x ./1-Integration-tests/scripts/run-integration.sh
+        run: chmod +x ./1-Integration-tests/scripts/run-integration.sh && chmod +x ./1-Integration-tests/scripts/wait-for-it.sh
 
       - name: Start services with Docker Compose
         working-directory: ./1-Integration-tests
