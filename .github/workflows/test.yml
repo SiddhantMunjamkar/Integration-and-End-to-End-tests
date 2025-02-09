@@ -36,6 +36,7 @@ jobs:
         run: chmod +x ./1-Integration-tests/scripts/run-integration.sh
 
       - name: Start services with Docker Compose
+        working-directory: ./1-Integration-tests
         run: docker compose up -d
 
       - name: Run Integration script
