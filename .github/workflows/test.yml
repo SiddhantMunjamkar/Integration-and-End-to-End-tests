@@ -41,4 +41,4 @@ jobs:
 
       - name: Run Integration script
         working-directory: ./1-Integration-tests
-        run: bash scripts/run-integration.sh
+        run: npm run test:integration
