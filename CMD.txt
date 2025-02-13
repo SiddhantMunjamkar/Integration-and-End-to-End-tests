@@ -9,3 +9,8 @@
 
 --To run the integration file--
 1)./scripts/run-integration.sh
+
+--TO run the End-to-End test
+1. npm install cypress --save-dev
+2. npx cypress open
+3. npx cypress run --browser chrome --headed
